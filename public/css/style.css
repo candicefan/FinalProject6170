@@ -1,0 +1,302 @@
+/* 
+ * Stylesheet
+ * Author(s): stacyho, xueqifan
+ */
+
+html, body, #main-container, #reactRoot {
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* SIGN UP and LOGIN PAGES */
+
+.signup-page, .login-page {
+  background-image: url("/img/bubble_background.png");
+  background-size: cover;
+  backgroud-repeat: no-repeat;
+  min-height: 100%;
+}
+
+.signup-page h1, .login-page h1{
+  margin-top: 0px;
+  padding-top: 50px;
+  text-align: center;
+  color: white;
+  font-size: 100px;
+}
+
+#signup-form , #login-form{
+  width: 300px;
+  margin: 20px auto;
+  color: white;
+}
+
+#signup-form h3, #login-form h3 {
+  text-align: center;
+  padding: 10px;
+}
+
+.signup-btn, .login-btn {
+  width: 100%;
+  background-color: #737399;
+  margin-bottom: 20px;
+}
+
+.signup-btn:hover, .login-btn:hover {
+  font-weight: bold;
+}
+
+.login-link, .signup-link {
+  width: 300px;
+  margin: auto;
+  color: black;
+  background-color: #dbd5d5;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.link {
+  padding: 5px 20px;
+}
+
+/* NAVBAR */
+
+.navbar {
+  background-color: #72528e;
+  border-radius: 0px;
+  color: white;
+  border: 1px solid #72528e;
+}
+
+.navbar-header {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 5px 10px;
+}
+
+.navbar a{
+  color: white !important;
+  margin-right: 10px;
+}
+
+.navbar a:hover{
+  opacity: .7;
+}
+
+
+/* PROFILE SECTION */
+
+.profile-section {
+  border: 1px solid #bababa;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f4f1f4;
+}
+
+.profile-icon {
+  width: 150px;
+  height: 125px;
+  display: block;
+  margin:auto;
+}
+
+.profile-kerberos{
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid #bcbaba;
+  padding: 10px;
+  margin: 5px;
+}
+
+.profile-name {
+  color: #63639e;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* LEADERBOARD */
+
+.ranking-board {
+  border: 1px solid #bababa;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f4f1f4;
+}
+
+.ranking-board h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.last-updated {
+  color: grey;
+  font-size: 13px;
+}
+
+.leaderboard-img {
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  display: block;
+}
+
+.ranking-board .glyphicon {
+  margin-right: 5px;
+}
+
+.ranking-board button {
+  margin-bottom: 15px;
+}
+
+.ranking-board table {
+  background-color: white;
+}
+
+
+/* BABBLES AND COMMENTS */
+
+.limit-message button {
+  margin-left: 15px;
+}
+
+.babble-thread {
+  border: 1px solid #CDCDCD;
+  border-radius: 5px;
+  margin: 0px;
+  margin-top: 20px;
+}
+
+.babble {
+  padding: 20px;
+  position: relative;
+  border-bottom: 1px solid #CDCDCD;
+}
+
+.babble-number {
+  border: 1px solid #CDCDCD;
+  padding: 5px 20px;
+  background-color: #88BBD6;
+  font-size: 17px;
+}
+
+.babble .display-name {
+  font-size: 18px;
+}
+.display-name {
+  font-weight: bold;
+}
+
+.babble-content {
+  font-size: 17px;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+.babble-text {
+  height: auto;
+}
+
+.timestamp{
+  color: #a9a9a9;
+  float: right;
+  margin-top: 7px;
+}
+
+.comment {
+  border-top: 1px solid #CDCDCD;
+  border-bottom: 1px solid #CDCDCD;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.comment-content {
+  padding-left: 10px;
+}
+
+.comment-vibe-info {
+  margin-top: 15px;
+}
+
+.vibe-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.vibes-count {
+  margin-left:5px;
+  margin-right:5px;
+}
+
+/* POST BABBLE FORM */
+
+.babble-posting-form {
+  border:  1px solid #CDCDCD;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #fcf8e3;
+  padding-bottom: 0px;
+}
+
+.babble-posting-form .form-group {
+  margin-bottom: 0px;
+}
+
+.identity-choice-buttons {
+  display: inline-block;
+}
+
+.post-babble-button {
+  margin-left: 30px;
+  margin-bottom: 28px;
+  display: inline-block;
+  overflow: hidden;
+  background-color: #88c388;
+  color: white;
+}
+
+.post-babble-button:hover {
+  background-color: #4e7d4e;
+  color: white;
+}
+
+/* POST COMMENT FORM AND MODAL */
+
+.comment-posting-form {
+  padding: 10px;
+  padding-bottom: 0px;
+  background-color: #fcf8e3;
+}
+
+.comment-posting-form .form-group {
+  margin-bottom: 0px;
+}
+
+.identity-choice-buttons {
+  display: inline-block;
+}
+
+.post-comment-button {
+  margin-left: 30px;
+  margin-bottom: 28px;
+  display: inline-block;
+  overflow: hidden;
+  background-color: #88c388;
+  color: white;
+}
+
+.post-comment-button:hover {
+  background-color: #4e7d4e;
+  color: white;
+}
+
+.post-comment-modal__header {
+  font-weight: bold;
+  padding-bottom: 0px;
+}
+
+.post-comment-modal__body {
+  background-color: #fcf8e3;
+}

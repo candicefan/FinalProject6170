@@ -1,0 +1,4 @@
+// length = 79
+var fruits = ["Apple", "Apricot", "Avocado", "Banana", "Bilberry", "Blackberry", "Blackcurrant", "Blueberry", "Boysenberry", "Currant", "Cherry", "Cherimoya", "Cloudberry", "Coconut", "Cranberry", "Cucumber", "Damson", "Date", "Dragonfruit", "Durian", "Elderberry", "Feijoa", "Fig", "Goji berry", "Gooseberry", "Grape", "Raisin", "Grapefruit", "Guava", "Huckleberry", "Jackfruit", "Jambul", "Jujube", "Juniper berry", "Kiwifruit", "Kumquat", "Lemon", "Lime", "Loquat", "Lychee", "Mango", "Marionberry", "Melon", "Cantaloupe", "Honeydew", "Watermelon ", "Mulberry", "Nectarine", "Nance", "Olive", "Orange", "Clementine", "Mandarine", "Tangerine ", "Papaya", "Passionfruit", "Peach", "Pear", "Persimmon", "Physalis", "Plantain", "Plum", "Pineapple", "Plumcot", "Pomegranate", "Pomelo", "Quince", "Raspberry", "Salmonberry", "Rambutan", "Redcurrant", "Salal", "Salak", "Satsuma ", "Strawberry", "Tamarillo", "Tamarind", "Tomato ", "Yuzu "]
+
+module.exports = fruits;
